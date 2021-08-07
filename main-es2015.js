@@ -1495,7 +1495,7 @@ _angular_platform_browser__WEBPACK_IMPORTED_MODULE_4__["platformBrowser"]().boot
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Code\vishaljaiswal5000-resume-angular\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /home/runner/work/vishaljaiswal5000-resume-angular/vishaljaiswal5000-resume-angular/src/main.ts */"./src/main.ts");
 
 
 /***/ })
