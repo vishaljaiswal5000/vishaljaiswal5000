@@ -342,7 +342,7 @@ class AboutComponent {
         this.firstName = "Vishal";
         this.lastName = "Jaiswal";
         this.emailId = "vishaljaiswal5000@gmail.com";
-        this.aboutMe = `I have over 3.5 years of experience as a software engineer and have
+        this.aboutMe = `I have over 4 years of experience as a software engineer and have
   worked at mid-level organization and as a freelancer. While I'm a
   proficient full stack developer.
 
@@ -362,7 +362,7 @@ class AboutComponent {
     }
 }
 AboutComponent.ɵfac = function AboutComponent_Factory(t) { return new (t || AboutComponent)(); };
-AboutComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AboutComponent, selectors: [["app-about"]], decls: 19, vars: 7, consts: [[1, "w-100"], [1, "mb-0"], [1, "text-primary"], [1, "subheading", "mb-5"], [3, "href"], [1, "resume-content"], ["class", "lead mb-3", 4, "ngIf"], [1, "fa-ul", "mb-3"], [4, "ngFor", "ngForOf"], [1, "lead", "social-icons"], ["target", "_blank", "href", "https://www.linkedin.com/in/vishal-jaiswal-aa53615b/"], [1, "fab", "fa-linkedin-in"], ["target", "_blank", "href", "https://github.com/vishaljaiswal5000"], [1, "fab", "fa-github"], [1, "lead", "mb-3"], [1, "fa-li", "fa", "fa-check"]], template: function AboutComponent_Template(rf, ctx) { if (rf & 1) {
+AboutComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AboutComponent, selectors: [["app-about"]], decls: 19, vars: 7, consts: [[1, "w-100"], [1, "mb-0"], [1, "text-primary"], [1, "subheading", "mb-5"], [3, "href"], [1, "resume-content"], ["class", "lead mb-3", 4, "ngIf"], [1, "fa-ul", "mb-5"], [4, "ngFor", "ngForOf"], [1, "lead", "social-icons"], ["target", "_blank", "href", "https://www.linkedin.com/in/vishal-jaiswal-aa53615b/"], [1, "fab", "fa-linkedin-in"], ["target", "_blank", "href", "https://github.com/vishaljaiswal5000"], [1, "fab", "fa-github"], [1, "lead", "mb-3"], [1, "fa-li", "fa", "fa-check"]], template: function AboutComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h1", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
@@ -856,7 +856,7 @@ function ExperienceComponent_div_5_div_3_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", experience_r1.company, " ");
 } }
 function ExperienceComponent_div_5_div_4_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 12);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
@@ -865,12 +865,12 @@ function ExperienceComponent_div_5_div_4_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" Domain: ", experience_r1.domain, " ");
 } }
 function ExperienceComponent_div_5_div_5_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 12);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, " Description ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
 function ExperienceComponent_div_5_div_8_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 12);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, " Responsibilities ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
@@ -884,18 +884,18 @@ function ExperienceComponent_div_5_li_10_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", responsibilty_r13, " ");
 } }
 function ExperienceComponent_div_5_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 4);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ExperienceComponent_div_5_div_1_Template, 3, 1, "div", 5);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, ExperienceComponent_div_5_h3_2_Template, 2, 1, "h3", 6);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, ExperienceComponent_div_5_div_3_Template, 2, 1, "div", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, ExperienceComponent_div_5_div_4_Template, 2, 1, "div", 8);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, ExperienceComponent_div_5_div_5_Template, 2, 0, "div", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, ExperienceComponent_div_5_div_4_Template, 2, 1, "div", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, ExperienceComponent_div_5_div_5_Template, 2, 0, "div", 7);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "p");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](8, ExperienceComponent_div_5_div_8_Template, 2, 0, "div", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](8, ExperienceComponent_div_5_div_8_Template, 2, 0, "div", 7);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "ul");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](10, ExperienceComponent_div_5_li_10_Template, 2, 1, "li", 4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](10, ExperienceComponent_div_5_li_10_Template, 2, 1, "li", 8);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
@@ -961,14 +961,14 @@ class ExperienceComponent {
     }
 }
 ExperienceComponent.ɵfac = function ExperienceComponent_Factory(t) { return new (t || ExperienceComponent)(); };
-ExperienceComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ExperienceComponent, selectors: [["app-experience"]], decls: 6, vars: 1, consts: [[1, "w-100"], [1, "mb-5"], [1, "resume-item", "d-flex", "flex-column", "flex-md-row", "justify-content-between", "mb-5"], [1, "resume-content"], [4, "ngFor", "ngForOf"], ["class", "resume-date text-md-right", 4, "ngIf"], ["class", "mb-0", 4, "ngIf"], ["class", "subheading mb-4", 4, "ngIf"], ["class", "subheading mb-3", 4, "ngIf"], [1, "resume-date", "text-md-right"], [1, "text-primary"], [1, "mb-0"], [1, "subheading", "mb-4"], [1, "subheading", "mb-3"]], template: function ExperienceComponent_Template(rf, ctx) { if (rf & 1) {
+ExperienceComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ExperienceComponent, selectors: [["app-experience"]], decls: 6, vars: 1, consts: [[1, "w-100"], [1, "resume-item", "d-flex", "flex-column", "flex-md-row", "justify-content-between"], [1, "resume-content"], ["class", "mt-5", 4, "ngFor", "ngForOf"], [1, "mt-5"], ["class", "resume-date text-md-right", 4, "ngIf"], ["class", "mb-0", 4, "ngIf"], ["class", "subheading mb-2", 4, "ngIf"], [4, "ngFor", "ngForOf"], [1, "resume-date", "text-md-right"], [1, "text-primary"], [1, "mb-0"], [1, "subheading", "mb-2"]], template: function ExperienceComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h2", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h2");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Experience");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, ExperienceComponent_div_5_Template, 11, 8, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, ExperienceComponent_div_5_Template, 11, 8, "div", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -1282,7 +1282,7 @@ class ProjectComponent {
     }
 }
 ProjectComponent.ɵfac = function ProjectComponent_Factory(t) { return new (t || ProjectComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](src_app_service_shared_service__WEBPACK_IMPORTED_MODULE_1__["SharedService"])); };
-ProjectComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ProjectComponent, selectors: [["app-project"]], decls: 7, vars: 1, consts: [[1, "w-100"], [1, "mb-5"], [1, "resume-item", "d-flex", "flex-column", "flex-md-row", "justify-content-between", "mb-5"], [1, "resume-content"], [3, "opened", "closed", 4, "ngFor", "ngForOf"], [3, "opened", "closed"], [1, "resume-date"], [4, "ngIf"], [4, "ngFor", "ngForOf"], ["color", "primary"]], template: function ProjectComponent_Template(rf, ctx) { if (rf & 1) {
+ProjectComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ProjectComponent, selectors: [["app-project"]], decls: 7, vars: 1, consts: [[1, "w-100"], [1, "mb-5"], [1, "resume-item", "d-flex", "flex-column", "flex-md-row", "justify-content-between", "mb-2"], [1, "resume-content"], [3, "opened", "closed", 4, "ngFor", "ngForOf"], [3, "opened", "closed"], [1, "resume-date"], [4, "ngIf"], [4, "ngFor", "ngForOf"], ["color", "primary"]], template: function ProjectComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h2", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Projects");
